@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  /* Автоматические отступы слева и справа */
+  margin-right: auto;
+  /* сработают только для блочных элементов */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* Горизонтальное выравнивание */
+  align-items: center;
+  /* Вертикальное выравнивание */
+  min-height: 400px;
+  /* Высота контейнера */
+}
